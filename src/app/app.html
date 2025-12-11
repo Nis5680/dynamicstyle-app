@@ -1,1 +1,9 @@
-<h1>Dynamic Style App</h1>
+<!-- <h1 style="background-color: red;">Dynamic Style App</h1> -->
+
+<h1 
+[style.background-color]="bgcolor"
+[style.font-size]="fontsize"
+>Dynamic Style App</h1>
+
+
+<h1 [style.font-size]="zoom ? headingSizeBig : headingSizeSmall">Heading</h1>
