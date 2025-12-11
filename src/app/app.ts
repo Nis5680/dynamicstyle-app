@@ -13,4 +13,8 @@ export class App {
   headingSizeSmall="30px";
 
   zoom=true;
+
+  updateSize(){
+    this.zoom = !this.zoom;
+  }
 }
